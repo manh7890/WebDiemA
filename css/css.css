@@ -1,0 +1,145 @@
+
+#menu ul li
+{
+	list-style:none;
+	position:relative;
+}
+#menu ul li ul
+{
+	display:none;
+	background:#fff;
+	position:absolute;
+	width:300px;
+	box-shadow:1px 1px 3px 3px #C0C0C0;
+}
+#menu ul li:hover ul
+{
+	display:block;
+}
+
+
+#sub_menu
+{
+	display:none;
+}
+#main_menu a
+{
+	text-decoration:none;
+	color:#000;
+	padding-right:20px;
+	font-family:time new roman;
+}
+.img_sale img
+{
+	height: 150px;
+}
+.img_sale
+{
+	background:white;
+	padding:10px;
+	
+}
+.sale_hot:hover
+{
+	box-shadow:1px 1px 5px 5px #C0C0C0;
+}
+.img_sale p
+{
+	font-weight:bold;
+	text-align:center;
+}
+.img_sale h6
+{
+	background:#FFCCCC;
+	text-align:center;
+	width:100%;
+	font-size:14px;
+	padding:5px 0px;
+	color:white;
+	border-radius:20px;
+}
+.img_sale img
+{
+	position:relative;
+}
+.img_sale h5
+{
+	position:absolute;
+	top:0;
+	left:0;
+	color:white;
+	background:red;
+	border-radius:0px 0px 30px 0px;
+	font-size:12px;
+	padding:10px;
+}
+
+.col-auto
+{
+	border: 1px solid white;
+	
+}
+footer { 
+    display: block;
+    padding-left: 100px;
+}
+/* login */
+header .login-form{
+    position: absolute;
+    top: 110%; right: -110%;
+    width: 35rem;
+    box-shadow: var(--box-shadow);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    background: #fff;
+    text-align: center;
+}
+header .login-form.active{
+    right: 2rem;
+    transform: 1s linear;
+}
+header .login-form h3{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: var(--black);
+}
+header .login-form .box{
+    width: 100%;
+    margin: 0.7rem 0;
+    background: #eee;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    font-size: 1.6em;
+    color: var(--black);
+    text-transform: none;
+}
+header .login-form p{
+    font-size: 1.4rem;
+    padding: 0.5rem 0;
+    color: var(--light-color);
+}
+header .login-form p a{
+    color: var(--green);
+    text-decoration: underline;
+}
+header .login-form .btn{
+    background: var(--green);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
